@@ -1,0 +1,397 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* body {
+    background-color: rgb(255, 255, 255);
+} */
+/* 
+.main-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #85D0D6;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 400px;
+} */
+.iconoGhibli {
+  width: 100px;
+}
+
+.inicioDescrip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ul li {
+  font-family: a;
+  font-family-color: black;
+  font-family-text-decoration: none;
+}
+
+.tipografia {
+  font-size: 20px;
+  font-family: Merriweather;
+  font-weight: 300;
+}
+
+.logo2 {
+  height: 300px;
+}
+
+.logo {
+  width: 80%;
+}
+
+.main-inicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.main-animaciones {
+  color: black;
+  padding: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 2fr 2fr;
+      grid-template-rows: 2fr 2fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+      grid-template-areas: "ponyo castilloAmbulante princesaMononoke" "elViento chihiro terramar";
+  justify-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main {
+  background-color: #FBE7C6;
+  margin-top: 50px;
+}
+
+.parrafoNov {
+  text-align: justify;
+}
+
+.ponyo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: ponyo;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.ponyo:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.castilloAmbulante {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: castilloAmbulante;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.castilloAmbulante:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.princesaMononoke {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: princesaMononoke;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.princesaMononoke:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.elViento {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: elViento;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.elViento:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.chihiro {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: chihiro;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.chihiro:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.terramar {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: terramar;
+  text-align: center;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.terramar:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.animaciones-img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+.peliculas {
+  background-color: #FBE7C6;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+.panel-footer {
+  border: 1px solid;
+  border-color: #c3cec8;
+  background-color: #f5f5d3;
+}
+
+.titulo {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.formulario {
+  font-size: 2vh;
+  color: #000000;
+  background-color: #E7C258;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.formulario-titulo {
+  font-weight: bold;
+  font-size: 2vh;
+  text-align: center;
+}
+
+.botones {
+  background-color: transparent;
+  border-style: hidden;
+  border-bottom: 1px solid;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.amapolas {
+  width: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: black;
+  background-color: transparent;
+}
+
+.chihiro-imagen {
+  width: 200px;
+  height: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: black;
+  background-color: transparent;
+}
+
+.museo {
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: black;
+  background-color: transparent;
+}
+
+.cartel {
+  width: 200px;
+}
+
+.main-logo {
+  background-color: #A0E7E5;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.main-inicio-historia {
+  margin: 100px;
+}
+
+.parrafo {
+  text-align: justify;
+}
+
+.row {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin-top: 50px;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+/* .formulario{
+    width: 1000px;
+    font-size: 2vh;
+    color: #000000;
+    background-color: #E7C258;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.formulario-titulo{
+    font-weight: bold;
+    font-size: 2vh;
+    text-align: center;
+}
+ */
+/* .inputs{
+    background-color: transparent;
+    border-style: hidden;
+    border-bottom: 1px solid;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+ */
+.formulario-mail {
+  margin-left: 20px;
+}
+
+.sobreNosotros {
+  color: black;
+  text-align: justify;
+  font-size: 2vh;
+  font-style: normal;
+  padding: 10px;
+}
+
+.imgRedonda {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+.footer-instagram {
+  background-image: url(../img/instagram.png);
+}
+
+.footer-nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  border-top: solid 2px #171918;
+  padding: 10px;
+  background-color: white;
+  color: #a3a2a2;
+  height: 100px;
+  padding-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.navFooter li {
+  list-style: none;
+}
+
+.navFooter a {
+  text-decoration: none;
+  color: #a3a2a2;
+  -webkit-transition: all;
+  transition: all;
+}
+
+.navFooter a:hover {
+  color: #2a67eb;
+}
+
+.imagen {
+  height: 20px;
+  width: 20px;
+}
+/*# sourceMappingURL=style.css.map */
